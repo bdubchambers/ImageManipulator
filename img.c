@@ -24,12 +24,6 @@ int main(void)
 
     /*File pointers for input bitmaps.
      Change Constant @ #define BMP_FILE.
-
-     Had some strange bugs when only using one
-     input file...kept this along with other
-     redundant variables unfortunately, due to
-     difficult to nail down glitches
-
      */
     FILE *inbmp = fopen(BMP_FILE, "rb");
     FILE *inbmp2 = fopen(BMP_FILE, "rb");
